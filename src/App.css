@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+}
+.app {
+  margin: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.app__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.app__stats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__left {
+  flex: 0.9;
+  margin: 1rem;
+}
+
+.app__right {
+  width: 30rem;
+}
+
+.table {
+  margin-top: 1rem;
+  height: 20rem;
+  overflow: scroll;
+}
+
+.table tr:nth-of-type(odd) {
+  background-color: whitesmoke;
+}
+
+.table tr {
+  display: flex;
+  justify-content: space-between;
+}
+
+.table td {
+  padding: 0.5rem;
+}
+
+.map {
+  height: 25rem;
+  margin-top: 1rem;
+  background-color: white;
+}
+
+.app .leaflet-container {
+  height: 100%;
+}
