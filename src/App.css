@@ -11,10 +11,31 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 992px) {
+  .app {
+    flex-direction: column;
+  }
+
+  .app .app__right {
+    width: 90vw;
+  }
+
+  .app .app__left {
+    width: 90vw;
+  }
+}
+
+.app__title {
+  margin: 1rem;
+  padding: 1.2rem;
+  text-align: center;
+  font-size: 3rem;
+}
+
 .app__header {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: row-reverse;
   margin-bottom: 1rem;
 }
 
@@ -30,6 +51,11 @@ body {
 
 .app__right {
   width: 30rem;
+  margin: 1rem;
+}
+
+.country__selector {
+  width: 15%;
 }
 
 .table {

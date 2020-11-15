@@ -9,8 +9,7 @@ function AppHeader({ countries }) {
 
   return (
     <header className="app__header">
-      <h1>COVID-19 Tracker</h1>
-      <FormControl>
+      <FormControl className="country__selector">
         <Select
           value={country}
           onChange={(e) => onCountryChange(e.target.value)}

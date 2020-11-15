@@ -114,8 +114,7 @@ export default function LineChart({ caseType = "cases" }) {
           data={{
             datasets: [
               {
-                // backgroundColor: "rgba(204, 16, 52, 0.5)",
-                borderColor: "#CC1034",
+                borderColor: "#171312",
                 data: data,
               },
             ],

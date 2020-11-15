@@ -24,6 +24,7 @@ function App() {
   }, []);
   return (
     <CountryConetxtProvider>
+      <h1 className="app__title">Corona Tracker</h1>
       <div className="app">
         <div className="app__left">
           <AppHeader countries={countries} />
